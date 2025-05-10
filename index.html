@@ -11,7 +11,7 @@
 <body>
     <div id="kon">
         <!-- Step 1 -->
-        <div class="container">
+        <div class="container active" id="rp-step1">
             <div class="header">
                 <h1>Registration Portal</h1>
                 <div class="progress-steps">
@@ -121,13 +121,13 @@
                         </div>
                         <br>
                         <br>
-                        <button type="submit" name="submit" class="submit-button">Submit</button>
+                        <button type="submit" name="submit" class="submit-button" id="reg_submit">Submit</button>
                         <div id="register-message"></div>
                     </form>
                 </div>
 
                 <div class="tab-content" id="login-tab">
-                    <form id="login-form" method="POST" action="login.php">
+                    <form id="login-form" method="POST" action="">
                         <div class="form-group">
                             <label for="login-username">Username / E-mail Adresse *:</label>
                             <input name="username" type="text" id="login-username" required>
@@ -140,7 +140,7 @@
 
                         <div class="form-group" style="text-align: right;">
                             <a href="#" class="forgot-link">Forgot Password?</a>
-                            <button type="submit" name="submit" class="submit-button-login">Submit</button>
+                            <button type="submit" name="submit" class="submit-button-login" id="login_submit">Submit</button>
 
                         </div>
                     </form>
@@ -148,7 +148,7 @@
             </div>
         </div>
         <!-- Step 2 -->
-        <div class="container">
+        <div class="container" id="rp-step2">
             <div class="header">
                 <h1>Registration Portal</h1>
                 <div class="progress-steps">
@@ -221,7 +221,7 @@
             </div>
         </div>
         <!-- Step 3 -->
-        <div class="container">
+        <div class="container" id="rp-step3">
             <div class="header">
                 <h1>Registration Portal</h1>
                 <div class="progress-steps">
@@ -279,7 +279,7 @@
             </div>
         </div>
         <!-- Step 4 -->
-        <div class="container">
+        <div class="container" id="rp-step4">
             <div class="header">
                 <h1>Registration Portal</h1>
                 <div class="progress-steps">
@@ -504,7 +504,7 @@
             </div>
         </div>
         <!--  Confirmation -->
-        <div class="container">
+        <div class="container" id="rp-step5">
             <div class="header">
                 <h1>Registration Portal</h1>
                 <div class="progress-steps">
@@ -540,7 +540,7 @@
             </div>
         </div>
         <!-- Thank you -->
-        <div class="container">
+        <div class="container" id="rp-step6">
             <div class="thank-you">
                 <h2>Vielen Dank!</h2>
                 <div class="image-box">

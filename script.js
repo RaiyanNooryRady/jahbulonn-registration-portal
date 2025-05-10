@@ -71,4 +71,19 @@ document.addEventListener('DOMContentLoaded', function() {
         schoolZahn.classList.remove('active');
         
     });
+
+    const reg_submit= document.getElementById('reg_submit');
+    const login_submit= document.getElementById('login_submit');
+
+    reg_submit.addEventListener('click',function(){
+        //switch to step 2
+        rp_step1.classList.remove('active');
+        rp_step2.classList.add('active');
+    });
+
+    login_submit.addEventListener('click',function(){
+        //switch to step 2
+        rp_step1.classList.remove('active');
+        rp_step2.classList.add('active');
+    });
 });

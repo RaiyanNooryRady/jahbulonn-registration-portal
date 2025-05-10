@@ -321,6 +321,13 @@
 #kon .thank-you{
     text-align: center;
 }
+#kon #rp-step1, #kon #rp-step2, #kon #rp-step3, #kon #rp-step4, #kon #rp-step5, #kon #rp-step6{
+    display: none;
+}
+#kon #rp-step1.active, #kon #rp-step2.active, #kon #rp-step3.active, #kon #rp-step4.active, #kon #rp-step5.active, #kon #rp-step6.active{
+    display: block;
+}
+
 /*Mobile Devices*/
 
 @media screen and (max-width: 768px) {

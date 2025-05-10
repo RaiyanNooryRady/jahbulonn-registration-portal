@@ -1,3 +1,4 @@
+/*Global & Step 1*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -201,6 +202,64 @@
     text-decoration: underline;
 }
 
+/*Step 2*/
+
+#kon .text{
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+#kon .upload-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    border: 1px solid #f2f2f2;
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+#kon .upload-icon-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#kon .upload-icon-section img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+#kon .upload-label {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+#kon .upload-text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#kon .upload-text-section p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#kon .upload-input {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/*Mobile Devices*/
 
 @media screen and (max-width: 768px) {
     

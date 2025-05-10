@@ -47,4 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
         profileTab.classList.add('active');
         dokumenteTab.classList.remove('active');
     });
+
+    //step 4
+    
 });

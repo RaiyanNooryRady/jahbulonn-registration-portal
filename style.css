@@ -151,7 +151,7 @@
     line-height: 1.4;
 }
 
-#kon .submit-button {
+#kon .submit-button, #kon .next-button {
     background-color: #0a6e83;
     color: white;
     border: none;
@@ -161,6 +161,18 @@
     font-size: 16px;
     font-weight: bold;
     float: right;
+    margin-top: -20px !important;
+}
+#kon .prev-button{
+    background-color: #0a6e83;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
     margin-top: -20px !important;
 }
 #kon .submit-button-login {

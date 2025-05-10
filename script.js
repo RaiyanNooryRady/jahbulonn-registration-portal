@@ -45,6 +45,6 @@ document.addEventListener('DOMContentLoaded', function() {
         profileBtn.classList.add('active');
         dokumenteBtn.classList.remove('active');
         profileTab.classList.add('active');
-        profileTab.classList.remove('active');
+        dokumenteTab.classList.remove('active');
     });
 });

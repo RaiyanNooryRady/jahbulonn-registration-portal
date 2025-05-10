@@ -11,6 +11,9 @@
     margin: 10px auto;
     width: 100%;
 }
+#kon p{
+    font-size: 14px;
+}
 
 #kon .container {
     background-color: white;
@@ -314,6 +317,10 @@
 #kon #humanmedizin_selected.active,#kon #zahnmedizin_selected.active, #kon #beides_selected.active{
     display: block;
 }
+
+#kon .thank-you{
+    text-align: center;
+}
 /*Mobile Devices*/
 
 @media screen and (max-width: 768px) {
@@ -345,7 +352,7 @@
     
     #kon   .checkbox-container {
         align-items: flex-start;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
     
     #kon   .checkbox-container input {

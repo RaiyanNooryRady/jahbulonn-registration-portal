@@ -269,7 +269,7 @@
     padding: 20px;
     border: 1px solid #f2f2f2;
     max-width: 300px;
-    margin: 30px auto;
+    margin: 20px auto;
     background-color: white;
     flex-wrap: wrap;
 }
@@ -284,6 +284,13 @@
 #kon .tab-content .logout-div .logout{
     font-size: 14px;
     color: #0A6E83;
+}
+/*Step 3*/
+#kon .container-heading{
+    text-align: center;
+}
+#kon #upload-documents-form{
+    padding-bottom: 10px;
 }
 /*Mobile Devices*/
 

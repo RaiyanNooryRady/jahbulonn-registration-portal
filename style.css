@@ -140,7 +140,9 @@
     margin-bottom: 0px;
     gap: 10px;
 }
-
+#kon .checkbox-container input, #kon .checkbox-container label{
+    cursor: pointer;
+}
 #kon .checkbox-container input {
     margin-top: 3px;
     min-width: 16px;
@@ -291,6 +293,14 @@
 }
 #kon #upload-documents-form{
     padding-bottom: 10px;
+}
+
+/*Step 4*/
+#kon .radio-container{
+    margin: 10px 0;
+}
+#kon .radio-container input, #kon .radio-container label{
+    cursor: pointer;
 }
 /*Mobile Devices*/
 

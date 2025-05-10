@@ -49,5 +49,25 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     //step 4
-    
+    const optionHuman= document.getElementById('humanmedizin');
+    const optionZahn= document.getElementById('zahnmedizin');
+    const optionBeides= document.getElementById('beides');
+    const schoolHuman= document.getElementById('humanmedizin_selected');
+    const schoolZahn= document.getElementById('zahnmedizin_selected');
+    const schoolBeides= document.getElementById('beides_selected');
+    optionHuman.addEventListener('click',function(){
+        schoolHuman.classList.add('active');
+        schoolZahn.classList.remove('active');
+        schoolBeides.classList.remove('active');
+    });
+    optionZahn.addEventListener('click',function(){
+        schoolZahn.classList.add('active');
+        schoolHuman.classList.remove('active');
+        schoolBeides.classList.remove('active');
+    });
+    optionBeides.addEventListener('click',function(){
+        schoolHuman.classList.remove('active');
+        schoolZahn.classList.remove('active');
+        schoolBeides.classList.add('active');
+    });
 });

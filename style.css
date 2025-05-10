@@ -305,8 +305,11 @@
 #kon #choose-school-form h4{
     margin: 15px 0;
 }
- #kon #zahnmedizin_selected, #kon #beides_selected{
+ #kon #humanmedizin_selected,#kon #zahnmedizin_selected, #kon #beides_selected{
     display: none;
+}
+#kon #humanmedizin_selected.active,#kon #zahnmedizin_selected.active, #kon #beides_selected.active{
+    display: block;
 }
 /*Mobile Devices*/
 

@@ -66,8 +66,9 @@ document.addEventListener('DOMContentLoaded', function() {
         schoolBeides.classList.remove('active');
     });
     optionBeides.addEventListener('click',function(){
+        schoolBeides.classList.add('active');
         schoolHuman.classList.remove('active');
         schoolZahn.classList.remove('active');
-        schoolBeides.classList.add('active');
+        
     });
 });

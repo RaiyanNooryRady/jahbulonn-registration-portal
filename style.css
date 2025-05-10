@@ -151,7 +151,7 @@
 
 #kon .checkbox-container label {
     font-size: 14px;
-    line-height: 1.4;
+    line-height: 1.8;
 }
 
 #kon .submit-button, #kon .next-button {
@@ -301,6 +301,9 @@
 }
 #kon .radio-container input, #kon .radio-container label{
     cursor: pointer;
+}
+#kon #choose-school-form h4{
+    margin: 15px 0;
 }
 /*Mobile Devices*/
 

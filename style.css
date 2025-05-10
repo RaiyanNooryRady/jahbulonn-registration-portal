@@ -261,6 +261,30 @@
     font-size: 14px;
 }
 
+#kon .image-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    border: 1px solid #f2f2f2;
+    max-width: 300px;
+    margin: 30px auto;
+    background-color: white;
+    flex-wrap: wrap;
+}
+#kon .image-box img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+#kon .tab-content .logout-div{
+    text-align: center;
+}
+#kon .tab-content .logout-div .logout{
+    font-size: 14px;
+    color: #0A6E83;
+}
 /*Mobile Devices*/
 
 @media screen and (max-width: 768px) {
